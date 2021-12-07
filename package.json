@@ -1,0 +1,37 @@
+{
+  "name": "@colton75/strapi-plugin-ckeditor5",
+  "version": "1.0.0",
+  "description": "Replace Strapi default WYSIWYG editor with enhanced build of CKEditor 5",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colton75/strapi-plugin-ckeditor5.git"
+  },
+  "keywords": [
+    "strapi",
+    "strapi plugin",
+    "ckeditor5",
+    "wysiwyg",
+    "editor",
+    "rich text"
+  ],
+  "author": "Rajat Dangat",
+  "license": "MIT",
+  "dependencies": {
+    "@ckeditor/ckeditor5-react": "^3.0.3",
+    "@strapi/design-system": "^0.0.1-alpha.70",
+    "@strapi/helper-plugin": "^4.0.0",
+    "ckeditor5-build-strapi-wysiwyg": "^1.14.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "strapi": {
+    "displayName": "CKEditor5",
+    "name": "strapi-plugin-ckeditor5",
+    "description": "Replace Strapi default WYSIWYG editor with enhanced build of CKEditor 5",
+    "required": false,
+    "kind": "plugin"
+  }
+}
