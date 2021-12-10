@@ -15,6 +15,22 @@ const Wrapper = styled.div`
       list-style: none;
     }
 
+    .text-tiny {
+      font-size: 0.7em;
+    }
+
+    .text-small {
+      font-size: 0.85em;
+    }
+
+    .text-big {
+      font-size: 1.4em;
+    }
+
+    .text-huge {
+      font-size: 1.8em;
+    }
+
     /* Fix line height */
     .ck-editor__editable {
       line-height: initial;
